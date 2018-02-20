@@ -63,6 +63,10 @@ public class FastPrimes {
 		new TimeExec(new Runnable() {
 			public void run() {
 				int[] primes = getPrimes(1000);
+//				System.out.print("Primes");
+//				for (int i = 0; i < 1000; i++){
+//					System.out.printf(" %d,", primes[i]);
+//				}
 				System.out.printf("Primes %d, %d, %d, %d, %d .... %d, %d, %d, %d, %d%n", primes[0], primes[1],
 						primes[2], primes[3], primes[4], primes[995], primes[996], primes[997], primes[998],
 						primes[999]);

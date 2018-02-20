@@ -5,7 +5,7 @@ package edu.iup.cosc310.util;
  * 
  *         Utility class to create an array of primes
  */
-public class FastPrimes {
+public class Primes {
 
 	/**
 	 * Get a set of prime numbers.
@@ -18,42 +18,18 @@ public class FastPrimes {
 		int[] primes = new int[no];
 		int primeInx = 0;
 		int i = 2;
-		
-		// count is the number of primes added into the array
-		int count = 0;
 
 		while (primeInx < no) {
-			
 			boolean prime = true;
-			
-			if(i > 3){
-				// reduces array by half for finding factors
-				int cut = i/2;
-			// to see if 'i' is divisible by a prime that was already discovered
-			for (int j = 1; j < cut; j++) {
-				
-				if (cut <= count && i % primes[j] == 0) {
+			for (int j = 2; j < i; j++) {
+				if (i == i / j * j) {
 					prime = false;
 				}
-				
 			}
-			}
-			
-			
-			
 			if (prime) {
 				primes[primeInx++] = i;
-				count++;
 			}
-			
-			if(i > 2){
-				i+=2;
-			}
-			else{
 			i++;
-			}
-			
-			
 		}
 
 		return primes;
