@@ -1,0 +1,42 @@
+Winner of election 1 is candidate 1
+TimeExec: Election 1: 0.0s
+No winner for election 2
+TimeExec: Election 2: 0.0s
+No winner for election 3
+TimeExec: Election 3: 0.0s
+Winner of election 4 is candidate 3
+TimeExec: Election 4: 0.0s
+No winner for election 5
+TimeExec: Election 5: 0.0s
+Winner of election 6 is candidate 0
+TimeExec: Election 6: 0.015s
+Winner of election 7 is candidate 2085
+TimeExec: Election 7: 3.695s
+Winner of election 8 is candidate 0
+TimeExec: Election 8: 0.0s
+Winner of election 9 is candidate 2
+TimeExec: Election 9: 0.0s
+Winner of election 10 is candidate 7
+TimeExec: Election 10: 0.0s
+Winner of election 11 is candidate 9
+TimeExec: Election 11: 0.0s
+Winner of election 12 is candidate 23
+TimeExec: Election 12: 0.042s
+Winner of election 13 is candidate 103
+TimeExec: Election 13: 0.165s
+No winner for election 14
+TimeExec: Election 14: 0.133s
+No winner for election 15
+TimeExec: Election 15: 0.133s
+Winner of election 16 is candidate 42
+TimeExec: Election 16: 0.066s
+Winner of election 17 is candidate 75
+TimeExec: Election 17: 0.117s
+No winner for election 18
+TimeExec: Election 18: 0.2s
+Winner of election 19 is candidate 106
+TimeExec: Election 19: 0.181s
+No winner for election 20
+TimeExec: Election 20: 0.123s
+Winner of election 21 is candidate 34
+TimeExec: Election 21: 0.034s
