@@ -6,4 +6,3 @@ Each program will display it's runtime in the output along with the program's in
 ## Authors
 
 * **Eric Olechovski** - [Olechovski](https://github.com/Olechovski)
-
